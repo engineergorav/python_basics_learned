@@ -1,0 +1,11 @@
+s=set()
+s.add(18)
+s.add("18")
+print(s)
+
+a=set()
+a.add(20)
+a.add(20.2)
+a.add("20")
+print(len(a))
+print(a)
